@@ -43,13 +43,13 @@ Start the webserver
 
     `python -m CGIHTTPServer`
 
-The webserver use port 8000 by default, you can now point your browser to [http://loaclhost:8000/cgi-bin/tutorial.py](http://loaclhost:8000/cgi-bin/tutorial.py)
+The webserver use port 8000 by default, you can now point your browser to [http://localhost:8000/cgi-bin/tutorial.py](http://localhost:8000/cgi-bin/tutorial.py)
 
 ## Register your application
 
 Now you need to register your application for access, click on the link of your bank to register.
 
-The name of the application is not important, I just called it "Python tutorial". The redirect URL must be the URL to your script. If you followed my instructions so far, it should be http://loaclhost:8000/cgi-bin/tutorial.py
+The name of the application is not important, I just called it "Python tutorial". The redirect URL must be the URL to your script. If you followed my instructions so far, it should be http://localhost:8000/cgi-bin/tutorial.py
 
 - [SpareBank 1 Østlandet](https://www.sparebank1.no/ostlandet/nettbank-privat/personlig-klient)
 - [SpareBank 1 Nord-Norge](https://www.sparebank1.no/nord-norge/nettbank-privat/personlig-klient)
@@ -100,7 +100,7 @@ print("</body>")
 print("</html>")
 ```
 
-You can now go to http://loaclhost:8000/cgi-bin/tutorial.py again and refresh, the link should take you to the bank selector and login procedure. The script is not yet set up to handle the next step after login, so, no need to go through the process. 
+You can now go to http://localhost:8000/cgi-bin/tutorial.py again and refresh, the link should take you to the bank selector and login procedure. The script is not yet set up to handle the next step after login, so, no need to go through the process. 
 
 ## Handle redirect with authentication code
 
@@ -141,7 +141,7 @@ print("</body>")
 print("</html>")
 ```
 
-You can now go to http://loaclhost:8000/cgi-bin/tutorial.py again and complete the login procedure. The script should now output the authentication code. This code is only valid for a short time, and can only be used to acquire an oAuth token
+You can now go to http://localhost:8000/cgi-bin/tutorial.py again and complete the login procedure. The script should now output the authentication code. This code is only valid for a short time, and can only be used to acquire an oAuth token
 
 ## Exchange the authentication code for an oAuth Token
 
