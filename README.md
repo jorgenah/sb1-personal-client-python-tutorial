@@ -1,8 +1,8 @@
-# Start using Sparebank 1 Personal Client with Python.
+# Start using SpareBank 1 Personal Client with Python.
 
-This tutorial gets you up and running with a simple Python based client for the Sparebank 1 Open APIs for personal clients. The script is just a demonstration, or a foundation for you to use. It assumes everything goes as planned, no error handling or testing is included. 
+This tutorial gets you up and running with a simple Python based client for the SpareBank 1 Open APIs for personal clients. The script is just a demonstration, or a foundation for you to use. It assumes everything goes as planned, no error handling or testing is included. 
 
-The Sparebank Open APIs for personal clients use oAuth Authorization Code Flow to authenticate (RFC 6749, 4.1), and the authorization code is provided after a bankID authentication. The authorization code is then exchanged for an oAuth token, that can be used to access the APIs
+The SpareBank 1 Open APIs for personal clients use oAuth Authorization Code Flow to authenticate (RFC 6749, 4.1), and the authorization code is provided after a bankID authentication. The authorization code is then exchanged for an oAuth token, that can be used to access the APIs
 
 The script has been created based on the documentation here: https://developersparebank1.no/personlig-klient
 
@@ -51,20 +51,20 @@ Now you need to register your application for access, click on the link of your 
 
 The name of the application is not important, I just called it "Python tutorial". The redirect URL must be the URL to your script. If you followed my instructions so far, it should be http://loaclhost:8000/cgi-bin/tutorial.py
 
-- [Sparebank 1 Østlandet](https://www.sparebank1.no/ostlandet/nettbank-privat/personlig-klient)
-- [Sparebank 1 Nord-Norge](https://www.sparebank1.no/nord-norge/nettbank-privat/personlig-klient)
-- [Sparebank 1 SR-bank ASA](https://www.sparebank1.no/sr-bank/nettbank-privat/personlig-klient)
-- [Sparebank 1 SMN](https://www.sparebank1.no/smn/nettbank-privat/personlig-klient)
-- [Sparebank 1 Telemark](https://www.sparebank1.no/telemark/nettbank-privat/personlig-klient)
-- [Sparebank 1 Hallingdal Valdres](https://www.sparebank1.no/hallingdal/nettbank-privat/personlig-klient)
-- [Sparebank 1 Lom og Skjåk](https://www.sparebank1.no/lom-skjaak/nettbank-privat/personlig-klient)
-- [Sparebank 1 Gudbrandsdalen](https://www.sparebank1.no/gudbrandsdal/nettbank-privat/personlig-klient)
-- [Sparebank 1 Nordvest](https://www.sparebank1.no/nordvest/nettbank-privat/personlig-klient)
-- [Sparebank 1 Modum](https://www.sparebank1.no/modum/nettbank-privat/personlig-klient)
-- [Sparebank 1 BV](https://www.sparebank1.no/bv/nettbank-privat/personlig-klient)
-- [Sparebank 1 Ringerike Hadeland](https://www.sparebank1.no/ringerike-hadeland/nettbank-privat/personlig-klient)
-- [Sparebank 1 Søre Sunnmøre](https://www.sparebank1.no/sore-sunnmore/nettbank-privat/personlig-klient)
-- [Sparebank 1 Østfold Akershus](https://www.sparebank1.no/ostfold-akershus/nettbank-privat/personlig-klient)
+- [SpareBank 1 Østlandet](https://www.sparebank1.no/ostlandet/nettbank-privat/personlig-klient)
+- [SpareBank 1 Nord-Norge](https://www.sparebank1.no/nord-norge/nettbank-privat/personlig-klient)
+- [SpareBank 1 SR-bank ASA](https://www.sparebank1.no/sr-bank/nettbank-privat/personlig-klient)
+- [SpareBank 1 SMN](https://www.sparebank1.no/smn/nettbank-privat/personlig-klient)
+- [SpareBank 1 Telemark](https://www.sparebank1.no/telemark/nettbank-privat/personlig-klient)
+- [SpareBank 1 Hallingdal Valdres](https://www.sparebank1.no/hallingdal/nettbank-privat/personlig-klient)
+- [SpareBank 1 Lom og Skjåk](https://www.sparebank1.no/lom-skjaak/nettbank-privat/personlig-klient)
+- [SpareBank 1 Gudbrandsdalen](https://www.sparebank1.no/gudbrandsdal/nettbank-privat/personlig-klient)
+- [SpareBank 1 Nordvest](https://www.sparebank1.no/nordvest/nettbank-privat/personlig-klient)
+- [SpareBank 1 Modum](https://www.sparebank1.no/modum/nettbank-privat/personlig-klient)
+- [SpareBank 1 BV](https://www.sparebank1.no/bv/nettbank-privat/personlig-klient)
+- [SpareBank 1 Ringerike Hadeland](https://www.sparebank1.no/ringerike-hadeland/nettbank-privat/personlig-klient)
+- [SpareBank 1 Søre Sunnmøre](https://www.sparebank1.no/sore-sunnmore/nettbank-privat/personlig-klient)
+- [SpareBank 1 Østfold Akershus](https://www.sparebank1.no/ostfold-akershus/nettbank-privat/personlig-klient)
 
 Note down `client_id`, `client_secret` and `fid`
 
@@ -72,7 +72,7 @@ Note down `client_id`, `client_secret` and `fid`
 
 Modify "tutorial.py", as follows, and replace `<< client_id >>` and `<< client_secret >>` with the data you got from registration of your app. You may also add financial institution (`<< fid >>`), this is optional, but it improves the authorization step later.
 
-This script creates the authorization link, used to take you to the login system of Sparebank 1 and return the authorization code.
+This script creates the authorization link, used to take you to the login system of SpareBank 1 and return the authorization code.
 
 ```python
 #!/usr/bin/env python3.7
