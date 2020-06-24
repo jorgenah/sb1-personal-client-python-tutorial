@@ -123,7 +123,7 @@ redirect_uri = "http://localhost:8000/cgi-bin/tutorial.py"
 authorize_uri = "https://api.sparebank1.no/oauth/authorize"
 
 if (authorization_code):
-    content = "Got the code: " + code
+    content = "Got the code: " + authorization_code
 else:
     content = '<a href=' +  authorize_uri + \
         '?response_type=code&client_id=' + client_id + \
@@ -241,6 +241,7 @@ if ( not access_token ):
     content = '<a href=' +  authorize_uri + \
         '?response_type=code&client_id=' + client_id + \
         '&redirect_uri=' + redirect_uri + \
+        '&finInst=' + fid + \
         '&state=state' + \
         '>Login</a>'
 

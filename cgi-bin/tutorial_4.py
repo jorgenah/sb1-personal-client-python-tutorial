@@ -35,12 +35,13 @@ else:
     content = '<a href=' +  authorize_uri + \
         '?response_type=code&client_id=' + client_id + \
         '&redirect_uri=' + redirect_uri + \
+        '&finInst=' + fid + \
         '&state=state' + \
         '>Login</a>'
 
-print("Content-type:text/html\r\n\r\n")
+print("Content-type:text/html;charset=utf-8\r\n\r\n")
 print("<html>")
-print("<head><title>Login</title></head>")
+print("<head><title>Personal client</title></head>")
 print("<body>")
 print(content)
 print("</body>")

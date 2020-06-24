@@ -15,7 +15,7 @@ redirect_uri = "http://localhost:8000/cgi-bin/tutorial_3.py"
 authorize_uri = "https://api.sparebank1.no/oauth/authorize"
 token_uri = "https://api.sparebank1.no/oauth/token"
 
-if (authorization_code):
+if ( authorization_code ):
     data = {'grant_type': 'authorization_code', 'code': authorization_code, 'redirect_uri': redirect_uri}
     token_response = requests.post(token_uri, data=data, verify=False, allow_redirects=False, auth=(client_id, client_secret))
     access_tokens = json.loads(token_response.text)
@@ -27,12 +27,13 @@ else:
     content = '<a href=' +  authorize_uri + \
         '?response_type=code&client_id=' + client_id + \
         '&redirect_uri=' + redirect_uri + \
+        '&finInst=' + fid + \
         '&state=state' + \
         '>Login</a>'
 
-print("Content-type:text/html\r\n\r\n")
+print("Content-type:text/html;charset=utf-8\r\n\r\n")
 print("<html>")
-print("<head><title>Login</title></head>")
+print("<head><title>Personal client</title></head>")
 print("<body>")
 print(content)
 print("</body>")

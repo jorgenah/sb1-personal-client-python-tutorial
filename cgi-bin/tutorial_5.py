@@ -47,9 +47,8 @@ if ( not access_token ):
 
 print("Content-type:text/html;charset=utf-8\r\n\r\n")
 print("<html>")
-print("<head><title>Personlig klient</title></head>")
+print("<head><title>Personal client</title></head>")
 print("<body>")
 print(content)
 print("</body>")
 print("</html>")
-
