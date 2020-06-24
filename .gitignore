@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#mac stuff
+.DS_Store
+
+#make sure we do not commit the oauth key
+cgi-bin/tokens*
