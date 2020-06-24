@@ -104,7 +104,7 @@ You can now go to http://loaclhost:8000/cgi-bin/tutorial.py again and refresh, t
 
 ## Handle redirect with authentication code
 
-When you later go through with the login, you will get an authentication code back to your script, using the redirect URL, as a http get parameter named "code", we need to modify the script to handle that.
+When you later go through with the login, you will get an authentication code back to your script. The redirect URL is used to reach your script, and a http get parameter named "code" is added, we need to modify the script to handle that.
 
 
 ```python
