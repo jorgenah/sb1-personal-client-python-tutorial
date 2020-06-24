@@ -51,20 +51,20 @@ Now you need to register your application for access, click on the link of your 
 
 The name of the application is not important, I just called it "Python tutorial". The redirect URL must be the URL to your script. If you followed my instructions so far, it should be http://loaclhost:8000/cgi-bin/tutorial.py
 
-[Sparebank 1 Østlandet](https://www.sparebank1.no/ostlandet/nettbank-privat/personlig-klient)
-[Sparebank 1 Nord-Norge](https://www.sparebank1.no/nord-norge/nettbank-privat/personlig-klient)
-[Sparebank 1 SR-bank ASA](https://www.sparebank1.no/sr-bank/nettbank-privat/personlig-klient)
-[Sparebank 1 SMN](https://www.sparebank1.no/smn/nettbank-privat/personlig-klient)
-[Sparebank 1 Telemark](https://www.sparebank1.no/telemark/nettbank-privat/personlig-klient)
-[Sparebank 1 Hallingdal Valdres](https://www.sparebank1.no/hallingdal/nettbank-privat/personlig-klient)
-[Sparebank 1 Lom og Skjåk](https://www.sparebank1.no/lom-skjaak/nettbank-privat/personlig-klient)
-[Sparebank 1 Gudbrandsdalen](https://www.sparebank1.no/gudbrandsdal/nettbank-privat/personlig-klient)
-[Sparebank 1 Nordvest](https://www.sparebank1.no/nordvest/nettbank-privat/personlig-klient)
-[Sparebank 1 Modum](https://www.sparebank1.no/modum/nettbank-privat/personlig-klient)
-[Sparebank 1 BV](https://www.sparebank1.no/bv/nettbank-privat/personlig-klient)
-[Sparebank 1 Ringerike Hadeland](https://www.sparebank1.no/ringerike-hadeland/nettbank-privat/personlig-klient)
-[Sparebank 1 Søre Sunnmøre](https://www.sparebank1.no/sore-sunnmore/nettbank-privat/personlig-klient)
-[Sparebank 1 Østfold Akershus](https://www.sparebank1.no/ostfold-akershus/nettbank-privat/personlig-klient)
+- [Sparebank 1 Østlandet](https://www.sparebank1.no/ostlandet/nettbank-privat/personlig-klient)
+- [Sparebank 1 Nord-Norge](https://www.sparebank1.no/nord-norge/nettbank-privat/personlig-klient)
+- [Sparebank 1 SR-bank ASA](https://www.sparebank1.no/sr-bank/nettbank-privat/personlig-klient)
+- [Sparebank 1 SMN](https://www.sparebank1.no/smn/nettbank-privat/personlig-klient)
+- [Sparebank 1 Telemark](https://www.sparebank1.no/telemark/nettbank-privat/personlig-klient)
+- [Sparebank 1 Hallingdal Valdres](https://www.sparebank1.no/hallingdal/nettbank-privat/personlig-klient)
+- [Sparebank 1 Lom og Skjåk](https://www.sparebank1.no/lom-skjaak/nettbank-privat/personlig-klient)
+- [Sparebank 1 Gudbrandsdalen](https://www.sparebank1.no/gudbrandsdal/nettbank-privat/personlig-klient)
+- [Sparebank 1 Nordvest](https://www.sparebank1.no/nordvest/nettbank-privat/personlig-klient)
+- [Sparebank 1 Modum](https://www.sparebank1.no/modum/nettbank-privat/personlig-klient)
+- [Sparebank 1 BV](https://www.sparebank1.no/bv/nettbank-privat/personlig-klient)
+- [Sparebank 1 Ringerike Hadeland](https://www.sparebank1.no/ringerike-hadeland/nettbank-privat/personlig-klient)
+- [Sparebank 1 Søre Sunnmøre](https://www.sparebank1.no/sore-sunnmore/nettbank-privat/personlig-klient)
+- [Sparebank 1 Østfold Akershus](https://www.sparebank1.no/ostfold-akershus/nettbank-privat/personlig-klient)
 
 Note down `client_id`, `client_secret` and `fid`
 
