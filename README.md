@@ -323,4 +323,4 @@ Hey, you made it. Now you can test our open APIs for Personal Client.
 You can find the documentation for the APIs here: 
 [Account API](https://developersparebank1.no/component/apiportal/?view=apitester&usage=api&tab=tests&apiName=PM%20Accounts&apiId=21670ee3-3524-47bd-b450-690c9c23b0de&menuId=147&managerId=1&apiVersion=1.4.0) and [Transfer API](https://developersparebank1.no/component/apiportal/?view=apitester&usage=api&tab=tests&apiName=PM%20Transfer&apiId=a284535f-2fe3-49a3-9248-e6f2ed20b2e2&menuId=147&managerId=1&apiVersion=1.3.0-release_1.3.0_0002)
 
-Remember this is just a tutorial to help you get started, and it is not a well written Python appllication. However for any feedback or bugs feel free to contact developer@sparebank1.no
+Remember this is just a tutorial to help you get started, and it is not a well written Python appllication. However for any feedback or bugs feel free to contact apideveloper@sparebank1.no
